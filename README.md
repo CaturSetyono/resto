@@ -84,7 +84,7 @@ Aplikasi web restoran ini dibuat untuk memudahkan pelanggan dalam melihat menu, 
 
 ## 📌 Tabel Database
 1. **Users** (id, name, email, password, phone, created_at)
-2. **Menu** (id, name, description, price, image_url, category, created_at)
+2. **Menu** (id, name, description, price, category, created_at)
 3. **Orders** (id, user_id, total_price, status, created_at)
 4. **Order_Items** (id, order_id, menu_id, quantity, subtotal)
 5. **Payments** (id, order_id, cashier_id, payment_method, amount, created_at)
