@@ -18,22 +18,19 @@ Aplikasi web restoran ini dibuat untuk memudahkan pelanggan dalam melihat menu, 
 ## 🚀 Instalasi dan Penggunaan
 1. **Clone Repository**:
    ```sh
-   git clone https://github.com/username/repo-name.git
-   cd repo-name
+   git clone https://github.com/CaturSetyono/resto.git
+   cd resto
    ```
-2. **Instalasi Dependensi**:
-   ```sh
-   npm install
-   ```
-3. **Konfigurasi Database**:
+2. **Konfigurasi Database**:
    - Buat database baru di MySQL/PostgreSQL
-   - Sesuaikan konfigurasi di file `.env`
-4. **Menjalankan Server**:
-   ```sh
-   npm run dev
-   ```
-5. **Akses Aplikasi**:
-   Buka browser dan akses `http://localhost:3000`
+   - Sesuaikan konfigurasi pada tabel database dibawah
+  
+3. **Menjalankan Server pada xampp**:
+   - start apache
+   - start mysql
+   
+4. **Akses Aplikasi**:
+   Buka browser dan akses `http://localhost/htdocs/public/index.php`
 
 ## 📂 Struktur Folder
 ```
