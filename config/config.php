@@ -1,8 +1,6 @@
 <?php
 
-// File: config/config.php
-
-// Konfigurasi database
+// konfigurasi database
 $host = "localhost";
 $dbname = "resto_db";
 $username = "root";
